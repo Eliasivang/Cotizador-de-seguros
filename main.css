@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;
+    border: none;
+    
+}
+
+
+body{
+    background-image: linear-gradient( 83.2deg,  rgba(150,93,233,1) 10.8%, rgba(99,88,238,1) 94.3% );
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.container{
+    width: 800px;
+    height: auto;
+    background-color: white;
+    margin-top: 150px;
+    border-radius: 5px;
+    
+}
+
+.container h1{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-align: center;
+    background-color:  rgba(0, 0, 0, 0.664);
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px ;
+    padding: 10px;
+}
+
+form{
+    width: 500px;
+    height: auto;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.select-1{
+    width: 300px;
+}
+.marca-container{
+    margin: 45px 0px;
+}
+.año-container{
+    margin: 15px 0px;
+}
+
+.fieldset-container{
+    margin-bottom: 10px;
+}
+
+.fieldset-container legend{
+    text-align: center;
+
+}
+.basico-container{
+    margin: 10px 0px;
+
+}
+
+.completo-container{
+    margin: 10px 0px;
+}
+
+.button-container{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.button-container button{
+    background-color: transparent;
+}
+#button-cot{
+    width: 200px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: rgba(150,93,233,1);
+}
+
+#year {
+    width: 100px;
+}
+
+.error{
+    text-align: center;
+    border: solid 1px;
+    color: red;
+    font-size:20px;
+    padding: 10px 0px;
+    background-color: rgba(255, 0, 0, 0.171);
+    
+}
+.correcto {
+    text-align: center;
+    border: solid 1px;
+    color: green;
+    font-size:20px;
+    padding: 10px 0px;
+    background-color: rgba(0, 128, 0, 0.171);
+}
+
+
+.header{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.664);
+    color: white;
+    height: 40px;
+    padding: 10px;
+    border-top-left-radius: 6px ;
+    border-top-right-radius: 6px;
+}
+
+.total{
+    text-align: center;
+    margin: 10px;
+    font-weight: 800;
+}
+
+.total-sp{
+    font-weight: 400;
+}
+.spinner{
+    text-align: center;
+    display: none;
+    margin-bottom: 5px;
+}
+.gif{
+    height:50px ;
+    
+}
+
+.tu-resumen{
+    margin-bottom: 20px;
+}
